@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="19.943129">
+<testcase classname="Print out google headlines" name="print headlines" time="8.314126">
+<system-out><![CDATA[Given the google news "https://news.google.com" webpage is open and title is "Google News".passed
+Then I want to print important content......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Print out google headlines" name="print headlines" time="11.629003">
+<system-out><![CDATA[Given the google news "https://sports.betway.com/" webpage is open and title is "Online Betting at Betway: Football Bets, Horses & other Sports!".passed
+Then I want to print important content......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

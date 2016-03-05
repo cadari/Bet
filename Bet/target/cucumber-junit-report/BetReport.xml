@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="16.910708">
+<testcase classname="Print out google headlines" name="print headlines" time="8.563394">
+<system-out><![CDATA[Given the google news "https://news.google.com" webpage is open and title is "Google News".passed
+Then I want to print important content......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Print out google headlines" name="print headlines" time="8.347314">
+<failure message="java.lang.AssertionError: expected [Online Betting at Betway: Football Bets, Horses &amp; other Sports!] but found [Online Betting Site BetWay: Latest Odds &amp; Best Offers]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:494)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:123)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:176)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:186)&#13;&#10;&#9;at bddBetCA.BetTest.the_google_news_webpage_is_open(BetTest.java:22)&#13;&#10;&#9;at ✽.Given the google news &quot;https://sports.betway.com/&quot; webpage is open and title is &quot;Online Betting at Betway: Football Bets, Horses &amp; other Sports!&quot;(firsttest.feature:11)&#13;&#10;"><![CDATA[Given the google news "https://sports.betway.com/" webpage is open and title is "Online Betting at Betway: Football Bets, Horses & other Sports!".failed
+Then I want to print important content......................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected [Online Betting at Betway: Football Bets, Horses & other Sports!] but found [Online Betting Site BetWay: Latest Odds & Best Offers]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at bddBetCA.BetTest.the_google_news_webpage_is_open(BetTest.java:22)
+	at ✽.Given the google news "https://sports.betway.com/" webpage is open and title is "Online Betting at Betway: Football Bets, Horses & other Sports!"(firsttest.feature:11)
+]]></failure>
+</testcase>
+</testsuite>
